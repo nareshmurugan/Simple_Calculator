@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body > <!--   onload="cc();" -->
+    <div style="margin: auto; background: rebeccapurple; width: 200px; " >
+    <h1  id="he" align="center" style="color: aqua;" >Calculator</h1></div>
+    <div class="box">
+        <div class="dis"><p id="dis"></p></div>
+        <div class="btn">
+            <div class="num">
+                <table>
+                    <tr class="tr">
+                        <td id="td">
+                            <div id="one" class="nu" onclick="add(1)">1</div>
+                        </td>
+                        <td id="td">
+                            <div id="two" class="nu" onclick="add(2)">2</div>
+                        </td>
+                        <td id="td">
+                            <div id="three" class="nu" onclick="add(3)">3</div>
+                        </td>
+                    </tr>
+                    <tr class="tr">
+                        <td id="td">
+                            <div id="four" class="nu" onclick="add(4)">4</div>
+                        </td>
+                        <td id="td">
+                            <div id="five" class="nu" onclick="add(5)">5</div>
+                        </td>
+                        <td id="td">
+                            <div id="six" class="nu" onclick="add(6)">6</div>
+                        </td>
+                    </tr>
+                    <tr class="tr">
+                        <td id="td">
+                            <div id="seven" class="nu" onclick="add(7)">7</div>
+                        </td>
+                        <td id="td">
+                            <div id="eight" class="nu" onclick="add(8)">8</div>
+                        </td>
+                        <td id="td">
+                        <div id="nine" class="nu" onclick="add(9)">9</div>
+                    </td>
+                    </tr>
+                    <tr class="tr">
+                        <td id="td">
+                            <div id="des" class="nu" onclick="add('.')">.</div>
+                        </td>
+                        <td id="td">
+                            <div id="zero" class="nu" onclick="add(0)">0</div>
+                        </td>
+                        <td id="td">
+                            <div id="eq" class="nu" onclick="result()">=</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="op">
+                <tr>
+                    <td>
+                        <div class="ope" id="cl" onclick="cl()">CLR</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="ope" id="mul" onclick="op('*');">*</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="ope" id="div" onclick="op('/')">/</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="ope" id="ad" onclick="op('+')">+</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="ope" id="su" onclick="op('-')">-</div>
+                    </td>
+                </tr>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,82 @@
+
+.box{
+    padding-top: 50px;
+    margin: auto;
+    border-radius: 30px;
+    height: 590px;
+    width: 490px;
+    background: rgb(39, 34, 34);
+}
+.dis{
+    margin: auto;
+    background: white;
+    width: 450px;
+    height: 95px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#dis{
+    float: right;
+}
+.btn{
+
+    padding-top: 20px;
+    display: flex;
+    margin: auto;
+    border-radius: 30px;
+    height: 400px;
+    width: 450px;
+    background: grey;
+}
+.num{
+    display: flex;
+    border-radius: 5px;
+    margin-left: 15px;
+    height: 375px;
+    width: 330px;
+    background: rgb(117, 117, 117);
+    justify-content: space-around;
+}
+#td{
+    
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    color: white;
+}
+.op{
+    display: block;
+    border-radius: 5px;
+    margin-left: 15px;
+    height: 375px;
+    width: 80px;
+    justify-content: space-around;
+}
+.ope{
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 28px;
+    height: 35px;
+    width: 50px;
+    background: blueviolet;
+    color: white;
+}
+
+.nu{
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 12px;
+    padding-top: 20px;
+    height: 50px;
+    width: 70px;
+    margin: auto;
+    background: blueviolet;
+    color: white;
+}
+#eq{
+    background: red;
+}
