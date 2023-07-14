@@ -57,9 +57,9 @@
 .ope{
     border-radius: 10px;
     text-align: center;
-    margin-top: 10px;
-    padding-top: 28px;
-    height: 35px;
+    margin-bottom: 21px;
+    padding-top: 10px;
+    height: 25px;
     width: 50px;
     background: blueviolet;
     color: white;
@@ -79,4 +79,9 @@
 }
 #eq{
     background: red;
+}
+
+#ac{
+    color: red;
+    font-weight: bolder;
 }
